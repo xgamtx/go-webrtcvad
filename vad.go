@@ -8,6 +8,8 @@ import (
 	"errors"
 	"runtime"
 	"unsafe"
+
+	_ "github.com/xgamtx/go-webrtcvad/webrtc"
 )
 
 func New() (*VAD, error) {
